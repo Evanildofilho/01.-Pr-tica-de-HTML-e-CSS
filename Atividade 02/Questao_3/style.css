@@ -1,0 +1,30 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 200px 500px 200px; 
+    grid-template-areas: "leftbar main rightbar";
+    gap: 20px; 
+}
+
+.left-bar, .main-content, .right-bar {
+    background-color: #ccc; 
+    padding: 20px;
+    height: 200px; 
+}
+
+.main-content {
+    background-color: #eee;
+     
+}
+
+.right-bar {
+    background-color: #ccc; 
+}
